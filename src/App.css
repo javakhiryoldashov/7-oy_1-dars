@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+body {
+  overflow: hidden;
+}
+
+
+.bg-switcher {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 100px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.color-control {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.color-control div {
+  display: flex;
+  align-items: center;
+}
+
+.color-control label {
+  margin-right: 10px;
+}
+
+.color-control button {
+  font-size: 2rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+  margin: 0 10px;
+  overflow: hidden;
+}
+
+.color-control button:hover {
+  color: #6600FF;
+  transform: scale(1.2);
+}
+
+.color-control span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
